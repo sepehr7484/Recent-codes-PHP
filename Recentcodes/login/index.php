@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  rel="stylesheet" type="text/css" href="style.css">
+        <body>
+                <form action="logins.php" method="post"> 
+
+
+                        <h2>Login</h2>
+                        <?php if(isset($_GET['error'])){?>
+                        <p class="error"><?php echo $_GET['error']; ?></p>
+                        
+                        <?php }?>
+
+                       
+                                
+                        
+                        <label > username:</label>
+                        <input type="text" name="username" placeholder="username">
+                        <label > password:</label>
+                        <input type="text" name="password" placeholder="password">
+                        <button type="submit" >Login</button>
+
+                </form>
+
+
+
+
+        </body>
+    </head>
+</html>

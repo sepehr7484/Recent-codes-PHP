@@ -1,0 +1,103 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+display: flex         
+}
+
+
+#hdr{
+   
+    width: 99%;
+    height: 150px;
+    background: black;
+    color: gold;
+    margin: 10px ;
+    
+}
+marquee{
+    height: 50px;
+    padding-bottom: 10px;
+/*    background: red;*/
+    text-align: center ;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    direction: rtl;
+    margin: 0 auto;
+}
+ul{
+    float: right;
+}
+nav{
+   
+border-radius: 10px;
+
+margin-top: 250px;
+    width: 97%;
+    height: 30px;
+    margin: 15px;
+    border: 1px solid greenyellow;
+    padding-bottom: 20px;
+}
+.btnnav{
+
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 80px;
+   height: 25px;
+    background: buttonface;
+    border-radius: 5px ;
+     
+}
+.btnnav:hover{
+    box-shadow: 2px 2px 5px yellow;
+    background: black;
+    color: greenyellow;
+    border:1px solid pink;
+}
+#sec_search{
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    height: 35px;
+    
+}
+#btn_search{
+    widows:128px;
+    height: 28px;
+    float: left;
+        margin-left: 5px;
+        background: black;
+        border: 2px solid gold;
+        border-radius: 3px;
+        color: greenyellow;
+       cursor: pointer;
+        
+
+}
+#search{
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    height: 28px;
+    background: black;
+    color: gold;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    
+}
+#search:hover{
+    box-shadow: 2px 2px 3px bisque;
+}
+#btn_search:hover{
+    box-shadow: 2px 2px 3px red;
+    background: green;
+    color: white;
+}

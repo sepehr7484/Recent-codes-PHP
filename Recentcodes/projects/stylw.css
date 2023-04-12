@@ -1,0 +1,46 @@
+
+body{
+    margin: 10px;
+    padding: 10px;
+    background: black;
+   
+}
+
+#frmlogin{
+    width: 350px;
+    height: 450px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    text-align: center;
+   
+    margin: 0 auto;
+    padding:10px;
+}
+.inputlogin{
+    display: inline-block;
+    font-size: 18px;
+    color: greenyellow;
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 25px;
+    background: black;
+    border: 1px solid plum;
+    border-radius: 5px;
+}
+#btnlogin{
+    width: 250px;
+    height: 28px;
+    padding: 5px;
+    float: bottom;
+    margin: 0 auto;
+}
+#li_nk{
+    text-align: left;
+    margin-left: 30px;
+    color: green;
+    padding:10px;
+    direction: ltr;
+    align-items: start;
+    float: left;
+}
